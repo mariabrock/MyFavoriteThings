@@ -9,7 +9,7 @@ namespace MyFavoriteThings.Books
         public bool IsOld { get; set; }
         public bool SmellsGood { get; set; }
 
-        public void Rustle()
+        public void Read()
         {
             if (IsOld)
             {
